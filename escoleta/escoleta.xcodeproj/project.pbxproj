@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B18D849D290751F3009E2D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D849C290751F3009E2D47 /* AppDelegate.swift */; };
+		B18D849F290751F3009E2D47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D849E290751F3009E2D47 /* SceneDelegate.swift */; };
+		B18D84A1290751F3009E2D47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D84A0290751F3009E2D47 /* ViewController.swift */; };
+		B18D84A7290751F3009E2D47 /* escoleta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B18D84A5290751F3009E2D47 /* escoleta.xcdatamodeld */; };
+		B18D84A9290751F5009E2D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18D84A8290751F5009E2D47 /* Assets.xcassets */; };
+		B18D84AC290751F5009E2D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18D84AA290751F5009E2D47 /* LaunchScreen.storyboard */; };
+		B18D84B7290751F5009E2D47 /* escoletaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D84B6290751F5009E2D47 /* escoletaTests.swift */; };
+		B18D84C1290751F5009E2D47 /* escoletaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D84C0290751F5009E2D47 /* escoletaUITests.swift */; };
+		B18D84C3290751F5009E2D47 /* escoletaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D84C2290751F5009E2D47 /* escoletaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B18D84B3290751F5009E2D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18D8491290751F3009E2D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18D8498290751F3009E2D47;
+			remoteInfo = escoleta;
+		};
+		B18D84BD290751F5009E2D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18D8491290751F3009E2D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18D8498290751F3009E2D47;
+			remoteInfo = escoleta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B18D8499290751F3009E2D47 /* escoleta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = escoleta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18D849C290751F3009E2D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B18D849E290751F3009E2D47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B18D84A0290751F3009E2D47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B18D84A6290751F3009E2D47 /* escoleta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = escoleta.xcdatamodel; sourceTree = "<group>"; };
+		B18D84A8290751F5009E2D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B18D84AB290751F5009E2D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B18D84AD290751F5009E2D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18D84B2290751F5009E2D47 /* escoletaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = escoletaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18D84B6290751F5009E2D47 /* escoletaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = escoletaTests.swift; sourceTree = "<group>"; };
+		B18D84BC290751F5009E2D47 /* escoletaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = escoletaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18D84C0290751F5009E2D47 /* escoletaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = escoletaUITests.swift; sourceTree = "<group>"; };
+		B18D84C2290751F5009E2D47 /* escoletaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = escoletaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B18D8496290751F3009E2D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18D84AF290751F5009E2D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18D84B9290751F5009E2D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B18D8490290751F3009E2D47 = {
+			isa = PBXGroup;
+			children = (
+				B18D849B290751F3009E2D47 /* escoleta */,
+				B18D84B5290751F5009E2D47 /* escoletaTests */,
+				B18D84BF290751F5009E2D47 /* escoletaUITests */,
+				B18D849A290751F3009E2D47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B18D849A290751F3009E2D47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B18D8499290751F3009E2D47 /* escoleta.app */,
+				B18D84B2290751F5009E2D47 /* escoletaTests.xctest */,
+				B18D84BC290751F5009E2D47 /* escoletaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18D849B290751F3009E2D47 /* escoleta */ = {
+			isa = PBXGroup;
+			children = (
+				B18D84CF29075228009E2D47 /* Resources */,
+				B18D84D029075230009E2D47 /* Controller */,
+				B18D84AD290751F5009E2D47 /* Info.plist */,
+				B18D84A5290751F3009E2D47 /* escoleta.xcdatamodeld */,
+			);
+			path = escoleta;
+			sourceTree = "<group>";
+		};
+		B18D84B5290751F5009E2D47 /* escoletaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B18D84B6290751F5009E2D47 /* escoletaTests.swift */,
+			);
+			path = escoletaTests;
+			sourceTree = "<group>";
+		};
+		B18D84BF290751F5009E2D47 /* escoletaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B18D84C0290751F5009E2D47 /* escoletaUITests.swift */,
+				B18D84C2290751F5009E2D47 /* escoletaUITestsLaunchTests.swift */,
+			);
+			path = escoletaUITests;
+			sourceTree = "<group>";
+		};
+		B18D84CF29075228009E2D47 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B18D84A8290751F5009E2D47 /* Assets.xcassets */,
+				B18D84AA290751F5009E2D47 /* LaunchScreen.storyboard */,
+				B18D849C290751F3009E2D47 /* AppDelegate.swift */,
+				B18D849E290751F3009E2D47 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B18D84D029075230009E2D47 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B18D84A0290751F3009E2D47 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B18D8498290751F3009E2D47 /* escoleta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18D84C6290751F5009E2D47 /* Build configuration list for PBXNativeTarget "escoleta" */;
+			buildPhases = (
+				B18D8495290751F3009E2D47 /* Sources */,
+				B18D8496290751F3009E2D47 /* Frameworks */,
+				B18D8497290751F3009E2D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = escoleta;
+			productName = escoleta;
+			productReference = B18D8499290751F3009E2D47 /* escoleta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B18D84B1290751F5009E2D47 /* escoletaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18D84C9290751F5009E2D47 /* Build configuration list for PBXNativeTarget "escoletaTests" */;
+			buildPhases = (
+				B18D84AE290751F5009E2D47 /* Sources */,
+				B18D84AF290751F5009E2D47 /* Frameworks */,
+				B18D84B0290751F5009E2D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B18D84B4290751F5009E2D47 /* PBXTargetDependency */,
+			);
+			name = escoletaTests;
+			productName = escoletaTests;
+			productReference = B18D84B2290751F5009E2D47 /* escoletaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B18D84BB290751F5009E2D47 /* escoletaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18D84CC290751F5009E2D47 /* Build configuration list for PBXNativeTarget "escoletaUITests" */;
+			buildPhases = (
+				B18D84B8290751F5009E2D47 /* Sources */,
+				B18D84B9290751F5009E2D47 /* Frameworks */,
+				B18D84BA290751F5009E2D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B18D84BE290751F5009E2D47 /* PBXTargetDependency */,
+			);
+			name = escoletaUITests;
+			productName = escoletaUITests;
+			productReference = B18D84BC290751F5009E2D47 /* escoletaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B18D8491290751F3009E2D47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B18D8498290751F3009E2D47 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B18D84B1290751F5009E2D47 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B18D8498290751F3009E2D47;
+					};
+					B18D84BB290751F5009E2D47 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B18D8498290751F3009E2D47;
+					};
+				};
+			};
+			buildConfigurationList = B18D8494290751F3009E2D47 /* Build configuration list for PBXProject "escoleta" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B18D8490290751F3009E2D47;
+			productRefGroup = B18D849A290751F3009E2D47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B18D8498290751F3009E2D47 /* escoleta */,
+				B18D84B1290751F5009E2D47 /* escoletaTests */,
+				B18D84BB290751F5009E2D47 /* escoletaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B18D8497290751F3009E2D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18D84AC290751F5009E2D47 /* LaunchScreen.storyboard in Resources */,
+				B18D84A9290751F5009E2D47 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18D84B0290751F5009E2D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18D84BA290751F5009E2D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B18D8495290751F3009E2D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18D84A1290751F3009E2D47 /* ViewController.swift in Sources */,
+				B18D84A7290751F3009E2D47 /* escoleta.xcdatamodeld in Sources */,
+				B18D849D290751F3009E2D47 /* AppDelegate.swift in Sources */,
+				B18D849F290751F3009E2D47 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18D84AE290751F5009E2D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18D84B7290751F5009E2D47 /* escoletaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18D84B8290751F5009E2D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18D84C3290751F5009E2D47 /* escoletaUITestsLaunchTests.swift in Sources */,
+				B18D84C1290751F5009E2D47 /* escoletaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B18D84B4290751F5009E2D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18D8498290751F3009E2D47 /* escoleta */;
+			targetProxy = B18D84B3290751F5009E2D47 /* PBXContainerItemProxy */;
+		};
+		B18D84BE290751F5009E2D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18D8498290751F3009E2D47 /* escoleta */;
+			targetProxy = B18D84BD290751F5009E2D47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B18D84AA290751F5009E2D47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18D84AB290751F5009E2D47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B18D84C4290751F5009E2D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B18D84C5290751F5009E2D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B18D84C7290751F5009E2D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFL3TKB7D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = escoleta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-bertiGrazi.escoleta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B18D84C8290751F5009E2D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFL3TKB7D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = escoleta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-bertiGrazi.escoleta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B18D84CA290751F5009E2D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFL3TKB7D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-bertiGrazi.escoletaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/escoleta.app/escoleta";
+			};
+			name = Debug;
+		};
+		B18D84CB290751F5009E2D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFL3TKB7D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-bertiGrazi.escoletaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/escoleta.app/escoleta";
+			};
+			name = Release;
+		};
+		B18D84CD290751F5009E2D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFL3TKB7D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-bertiGrazi.escoletaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = escoleta;
+			};
+			name = Debug;
+		};
+		B18D84CE290751F5009E2D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFL3TKB7D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-bertiGrazi.escoletaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = escoleta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B18D8494290751F3009E2D47 /* Build configuration list for PBXProject "escoleta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18D84C4290751F5009E2D47 /* Debug */,
+				B18D84C5290751F5009E2D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18D84C6290751F5009E2D47 /* Build configuration list for PBXNativeTarget "escoleta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18D84C7290751F5009E2D47 /* Debug */,
+				B18D84C8290751F5009E2D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18D84C9290751F5009E2D47 /* Build configuration list for PBXNativeTarget "escoletaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18D84CA290751F5009E2D47 /* Debug */,
+				B18D84CB290751F5009E2D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18D84CC290751F5009E2D47 /* Build configuration list for PBXNativeTarget "escoletaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18D84CD290751F5009E2D47 /* Debug */,
+				B18D84CE290751F5009E2D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B18D84A5290751F3009E2D47 /* escoleta.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B18D84A6290751F3009E2D47 /* escoleta.xcdatamodel */,
+			);
+			currentVersion = B18D84A6290751F3009E2D47 /* escoleta.xcdatamodel */;
+			path = escoleta.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B18D8491290751F3009E2D47 /* Project object */;
+}
