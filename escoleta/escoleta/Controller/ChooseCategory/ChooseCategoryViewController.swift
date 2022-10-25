@@ -8,6 +8,10 @@
 import UIKit
 
 class ChooseCategoryViewController: UIViewController {
+    //MARK: - Variable
+    
+    //MARK: - View
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
