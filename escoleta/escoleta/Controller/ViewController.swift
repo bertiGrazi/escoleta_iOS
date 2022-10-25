@@ -173,6 +173,7 @@ class ViewController: UIViewController {
             serchImageView.centerXAnchor.constraint(equalTo: serchView.centerXAnchor, constant: 0),
             serchImageView.centerYAnchor.constraint(equalTo: serchView.centerYAnchor, constant: 0),
             
+            searchForCollectionPointsButton.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor, constant: 0),
             searchForCollectionPointsButton.topAnchor.constraint(equalTo: subtitleLabel.bottomAnchor, constant: 25),
             searchForCollectionPointsButton.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor, constant: 20),
             searchForCollectionPointsButton.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor, constant: 20),
