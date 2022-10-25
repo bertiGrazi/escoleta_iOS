@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
     //MARK: - Variable
     
     //MARK: View
@@ -117,7 +117,10 @@ class ViewController: UIViewController {
     
     @objc
     fileprivate func handleSearchCollectionPoints() {
-        print("Clicou aqui")
+        let chooseCategorryViewController = ChooseCategoryViewController()
+        chooseCategorryViewController.navigationItem.largeTitleDisplayMode = .never
+        chooseCategorryViewController.title = "Nossas Coletas"
+        self.navigationController?.pushViewController(chooseCategorryViewController, animated: true)
     }
     
     fileprivate func setupView() {
