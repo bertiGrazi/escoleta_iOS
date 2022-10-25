@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     fileprivate let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
         scrollView.backgroundColor = .backgroundColor
+        scrollView.isScrollEnabled = true
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         return scrollView
     }()
@@ -21,6 +22,25 @@ class ViewController: UIViewController {
     fileprivate let logoImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "logo")
+        imageView.contentMode = .scaleAspectFill
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        return imageView
+    }()
+    
+    fileprivate let registerCollectionPointButton: UIButton = {
+        let button = UIButton()
+        button.backgroundColor = .buttonPrimaryColor
+        button.layer.cornerRadius = 8
+        button.tintColor = .buttonPrimaryColor
+        button.addTarget(self, action: #selector(handleRegisterCollectionPoint), for: .touchUpInside)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
+    
+    fileprivate let plusImageView: UIImageView = {
+        let imageView = UIImageView()
+        imageView.image = UIImage(systemName: "plus")
+        imageView.tintColor = .white
         imageView.contentMode = .scaleAspectFill
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
@@ -79,13 +99,20 @@ class ViewController: UIViewController {
         imageView.image = UIImage(systemName: "magnifyingglass")
         imageView.contentMode = .scaleAspectFill
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        return imageView    }()
+        return imageView
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .backgroundColor
         setupView()
         setupConstrains()
+    }
+    
+    //MARK: - Selectors
+    @objc
+    fileprivate func handleRegisterCollectionPoint() {
+        print("Clicou aqui")
     }
     
     @objc
@@ -96,6 +123,8 @@ class ViewController: UIViewController {
     fileprivate func setupView() {
         view.addSubview(scrollView)
         scrollView.addSubview(logoImageView)
+        scrollView.addSubview(registerCollectionPointButton)
+        registerCollectionPointButton.addSubview(plusImageView)
         scrollView.addSubview(peopleImageView)
         scrollView.addSubview(titleLabel)
         scrollView.addSubview(subtitleLabel)
@@ -115,6 +144,14 @@ class ViewController: UIViewController {
             logoImageView.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor, constant: 40),
             logoImageView.widthAnchor.constraint(equalToConstant: 100),
             logoImageView.heightAnchor.constraint(equalToConstant: 50),
+            
+            registerCollectionPointButton.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 0),
+            registerCollectionPointButton.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor, constant: 20),
+            registerCollectionPointButton.widthAnchor.constraint(equalToConstant: 50),
+            registerCollectionPointButton.heightAnchor.constraint(equalToConstant: 50),
+            
+            plusImageView.centerXAnchor.constraint(equalTo: registerCollectionPointButton.centerXAnchor, constant: 0),
+            plusImageView.centerYAnchor.constraint(equalTo: registerCollectionPointButton.centerYAnchor, constant: 0),
             
             peopleImageView.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor, constant: 35),
             peopleImageView.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: 150),
@@ -136,9 +173,10 @@ class ViewController: UIViewController {
             serchImageView.centerXAnchor.constraint(equalTo: serchView.centerXAnchor, constant: 0),
             serchImageView.centerYAnchor.constraint(equalTo: serchView.centerYAnchor, constant: 0),
             
-            searchForCollectionPointsButton.topAnchor.constraint(equalTo: subtitleLabel.bottomAnchor, constant: 50),
+            searchForCollectionPointsButton.topAnchor.constraint(equalTo: subtitleLabel.bottomAnchor, constant: 25),
             searchForCollectionPointsButton.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor, constant: 20),
             searchForCollectionPointsButton.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor, constant: 20),
+            searchForCollectionPointsButton.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor, constant: -20),
             searchForCollectionPointsButton.widthAnchor.constraint(equalToConstant: 345),
             searchForCollectionPointsButton.heightAnchor.constraint(equalToConstant: 50),
         ])
