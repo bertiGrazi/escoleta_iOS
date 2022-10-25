@@ -16,6 +16,7 @@
 		B18D84B7290751F5009E2D47 /* escoletaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D84B6290751F5009E2D47 /* escoletaTests.swift */; };
 		B18D84C1290751F5009E2D47 /* escoletaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D84C0290751F5009E2D47 /* escoletaUITests.swift */; };
 		B18D84C3290751F5009E2D47 /* escoletaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D84C2290751F5009E2D47 /* escoletaUITestsLaunchTests.swift */; };
+		B18D84D329075410009E2D47 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D84D229075410009E2D47 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B18D84BC290751F5009E2D47 /* escoletaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = escoletaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18D84C0290751F5009E2D47 /* escoletaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = escoletaUITests.swift; sourceTree = "<group>"; };
 		B18D84C2290751F5009E2D47 /* escoletaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = escoletaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B18D84D229075410009E2D47 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		B18D849B290751F3009E2D47 /* escoleta */ = {
 			isa = PBXGroup;
 			children = (
+				B18D84D129075372009E2D47 /* Utils */,
 				B18D84CF29075228009E2D47 /* Resources */,
 				B18D84D029075230009E2D47 /* Controller */,
 				B18D84AD290751F5009E2D47 /* Info.plist */,
@@ -141,6 +144,14 @@
 				B18D84A0290751F3009E2D47 /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		B18D84D129075372009E2D47 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B18D84D229075410009E2D47 /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18D84D329075410009E2D47 /* Extensions.swift in Sources */,
 				B18D84A1290751F3009E2D47 /* ViewController.swift in Sources */,
 				B18D84A7290751F3009E2D47 /* escoleta.xcdatamodeld in Sources */,
 				B18D849D290751F3009E2D47 /* AppDelegate.swift in Sources */,
