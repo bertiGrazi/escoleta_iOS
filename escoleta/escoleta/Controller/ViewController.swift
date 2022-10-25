@@ -60,6 +60,7 @@ class ViewController: UIViewController {
         button.backgroundColor = .buttonPrimaryColor
         button.tintColor = .white
         button.layer.cornerRadius = 8
+        button.addTarget(self, action: #selector(handleSearchCollectionPoints), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -68,7 +69,7 @@ class ViewController: UIViewController {
         let view = UIView()
         view.backgroundColor = .buttonSecondaryColor
         view.layer.cornerRadius = 8
-        view.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMinYCorner]
+        view.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMinXMinYCorner]
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -85,6 +86,11 @@ class ViewController: UIViewController {
         view.backgroundColor = .backgroundColor
         setupView()
         setupConstrains()
+    }
+    
+    @objc
+    fileprivate func handleSearchCollectionPoints() {
+        print("Clicou aqui")
     }
     
     fileprivate func setupView() {
