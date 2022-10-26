@@ -17,4 +17,5 @@ extension UIColor {
     static let subtitleColor = UIColor.rgb(red: 108, green: 108, blue: 128)
     static let buttonPrimaryColor = UIColor.rgb(red: 52, green: 203, blue: 121)
     static let buttonSecondaryColor = UIColor.rgb(red: 47, green: 184, blue: 110)
+    static let degradeGreenColor = UIColor.rgb(red: 225, green: 250, blue: 236)
 }

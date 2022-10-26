@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class ChooseCategoryViewModel {
+    var bussinessModel: ChooseCategoryProtocol = ChooseCategoryBussinessModel()
+    
+    func fetchCategoryList() -> [ChooseCategoryData] {
+        return bussinessModel.featchCategoryList()
+    }
+}

@@ -6,7 +6,9 @@
 //
 
 import Foundation
+import UIKit
 
 struct ChooseCategoryData {
-    
+    var iconCategory = UIImage()
+    var nameCategory: String = ""
 }
