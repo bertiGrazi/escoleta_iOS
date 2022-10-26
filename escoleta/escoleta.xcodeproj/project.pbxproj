@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B1088FA2290805EE00B4BDE9 /* ChooseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1088FA1290805EE00B4BDE9 /* ChooseCategoryViewController.swift */; };
+		B1088FAB29080B3B00B4BDE9 /* ChooseCategoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1088FAA29080B3B00B4BDE9 /* ChooseCategoryProtocol.swift */; };
+		B1088FAD29080B5400B4BDE9 /* ChooseCategoryBussinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1088FAC29080B5400B4BDE9 /* ChooseCategoryBussinessModel.swift */; };
+		B1088FAF29080B6200B4BDE9 /* ChooseCategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1088FAE29080B6200B4BDE9 /* ChooseCategoryData.swift */; };
+		B1088FB129080B7F00B4BDE9 /* ChooseCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1088FB029080B7F00B4BDE9 /* ChooseCategoryViewModel.swift */; };
+		B1088FB42908A9B600B4BDE9 /* ChooseCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1088FB32908A9B600B4BDE9 /* ChooseCategoryCollectionViewCell.swift */; };
 		B18D849D290751F3009E2D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D849C290751F3009E2D47 /* AppDelegate.swift */; };
 		B18D849F290751F3009E2D47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D849E290751F3009E2D47 /* SceneDelegate.swift */; };
 		B18D84A1290751F3009E2D47 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D84A0290751F3009E2D47 /* HomeViewController.swift */; };
@@ -39,6 +44,11 @@
 
 /* Begin PBXFileReference section */
 		B1088FA1290805EE00B4BDE9 /* ChooseCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCategoryViewController.swift; sourceTree = "<group>"; };
+		B1088FAA29080B3B00B4BDE9 /* ChooseCategoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCategoryProtocol.swift; sourceTree = "<group>"; };
+		B1088FAC29080B5400B4BDE9 /* ChooseCategoryBussinessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCategoryBussinessModel.swift; sourceTree = "<group>"; };
+		B1088FAE29080B6200B4BDE9 /* ChooseCategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCategoryData.swift; sourceTree = "<group>"; };
+		B1088FB029080B7F00B4BDE9 /* ChooseCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCategoryViewModel.swift; sourceTree = "<group>"; };
+		B1088FB32908A9B600B4BDE9 /* ChooseCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		B18D8499290751F3009E2D47 /* escoleta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = escoleta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18D849C290751F3009E2D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B18D849E290751F3009E2D47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +90,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B1088FA329080AA500B4BDE9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B18D84A0290751F3009E2D47 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B1088FA429080AAF00B4BDE9 /* ChooseCategory */ = {
+			isa = PBXGroup;
+			children = (
+				B1088FB22908A9A000B4BDE9 /* Cell */,
+				B1088FA1290805EE00B4BDE9 /* ChooseCategoryViewController.swift */,
+			);
+			path = ChooseCategory;
+			sourceTree = "<group>";
+		};
+		B1088FA629080AD700B4BDE9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B1088FB029080B7F00B4BDE9 /* ChooseCategoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B1088FA729080B0400B4BDE9 /* BussinessModel */ = {
+			isa = PBXGroup;
+			children = (
+				B1088FA829080B1000B4BDE9 /* ChooseCategoryBussinessModel */,
+			);
+			path = BussinessModel;
+			sourceTree = "<group>";
+		};
+		B1088FA829080B1000B4BDE9 /* ChooseCategoryBussinessModel */ = {
+			isa = PBXGroup;
+			children = (
+				B1088FA929080B2600B4BDE9 /* Data */,
+				B1088FAA29080B3B00B4BDE9 /* ChooseCategoryProtocol.swift */,
+				B1088FAC29080B5400B4BDE9 /* ChooseCategoryBussinessModel.swift */,
+			);
+			path = ChooseCategoryBussinessModel;
+			sourceTree = "<group>";
+		};
+		B1088FA929080B2600B4BDE9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B1088FAE29080B6200B4BDE9 /* ChooseCategoryData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B1088FB22908A9A000B4BDE9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B1088FB32908A9B600B4BDE9 /* ChooseCategoryCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		B18D8490290751F3009E2D47 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +172,8 @@
 		B18D849B290751F3009E2D47 /* escoleta */ = {
 			isa = PBXGroup;
 			children = (
+				B1088FA729080B0400B4BDE9 /* BussinessModel */,
+				B1088FA629080AD700B4BDE9 /* ViewModel */,
 				B18D84D129075372009E2D47 /* Utils */,
 				B18D84CF29075228009E2D47 /* Resources */,
 				B18D84D029075230009E2D47 /* Controller */,
@@ -143,8 +214,8 @@
 		B18D84D029075230009E2D47 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B18D84A0290751F3009E2D47 /* HomeViewController.swift */,
-				B1088FA1290805EE00B4BDE9 /* ChooseCategoryViewController.swift */,
+				B1088FA329080AA500B4BDE9 /* Home */,
+				B1088FA429080AAF00B4BDE9 /* ChooseCategory */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -287,10 +358,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1088FB42908A9B600B4BDE9 /* ChooseCategoryCollectionViewCell.swift in Sources */,
+				B1088FAB29080B3B00B4BDE9 /* ChooseCategoryProtocol.swift in Sources */,
 				B18D84D329075410009E2D47 /* Extensions.swift in Sources */,
 				B18D84A1290751F3009E2D47 /* HomeViewController.swift in Sources */,
 				B18D84A7290751F3009E2D47 /* escoleta.xcdatamodeld in Sources */,
+				B1088FAD29080B5400B4BDE9 /* ChooseCategoryBussinessModel.swift in Sources */,
 				B1088FA2290805EE00B4BDE9 /* ChooseCategoryViewController.swift in Sources */,
+				B1088FAF29080B6200B4BDE9 /* ChooseCategoryData.swift in Sources */,
+				B1088FB129080B7F00B4BDE9 /* ChooseCategoryViewModel.swift in Sources */,
 				B18D849D290751F3009E2D47 /* AppDelegate.swift in Sources */,
 				B18D849F290751F3009E2D47 /* SceneDelegate.swift in Sources */,
 			);
