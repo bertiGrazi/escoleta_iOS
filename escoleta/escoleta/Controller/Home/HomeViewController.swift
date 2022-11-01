@@ -117,10 +117,15 @@ class HomeViewController: UIViewController {
     
     @objc
     fileprivate func handleSearchCollectionPoints() {
-        let chooseCategorryViewController = ChooseCategoryViewController()
-        chooseCategorryViewController.navigationItem.largeTitleDisplayMode = .never
-        chooseCategorryViewController.title = "Nossas Coletas"
-        self.navigationController?.pushViewController(chooseCategorryViewController, animated: true)
+//        let chooseCategorryViewController = ChooseCategoryViewController()
+//        chooseCategorryViewController.navigationItem.largeTitleDisplayMode = .never
+//        chooseCategorryViewController.title = "Nossas Coletas"
+//        self.navigationController?.pushViewController(chooseCategorryViewController, animated: true)
+        
+        let placesListViewController = PlacesListViewController()
+        placesListViewController.navigationItem.largeTitleDisplayMode = .never
+        placesListViewController.title = "Nome da Categoria"
+        self.navigationController?.pushViewController(placesListViewController, animated: true)
     }
     
     fileprivate func setupView() {
