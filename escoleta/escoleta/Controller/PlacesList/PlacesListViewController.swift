@@ -28,6 +28,13 @@ class PlacesListViewController: UIViewController {
         searchBar.backgroundColor = .backgroundColor
         return searchBar
     }()
+    
+    fileprivate let foundPlacesLabel: UILabel = {
+        let label = Utilities().attributedFoundPlacesText("2 pontos", " encontrados")
+        label.numberOfLines = 0
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
 
     fileprivate let tableView: UITableView = {
         let tableView = UITableView()
@@ -51,7 +58,8 @@ class PlacesListViewController: UIViewController {
     fileprivate func setupLayout() {
         view.addSubview(stackView)
         stackView.addSubview(filterPlacesListSearchBar)
-        view.addSubview(tableView)
+        view.addSubview(foundPlacesLabel)
+        //view.addSubview(tableView)
     }
     
     fileprivate func setupConstraints() {
@@ -66,10 +74,13 @@ class PlacesListViewController: UIViewController {
             filterPlacesListSearchBar.trailingAnchor.constraint(equalTo: stackView.trailingAnchor, constant: 20),
             filterPlacesListSearchBar.leadingAnchor.constraint(equalTo: stackView.leadingAnchor, constant: 20),
             
-            tableView.topAnchor.constraint(equalTo: filterPlacesListSearchBar.bottomAnchor, constant: 0),
-            tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
-            tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
-            tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0)
+            foundPlacesLabel.topAnchor.constraint(equalTo: filterPlacesListSearchBar.bottomAnchor, constant: 20),
+            foundPlacesLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            
+//            tableView.topAnchor.constraint(equalTo: filterPlacesListSearchBar.bottomAnchor, constant: 0),
+//            tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
+//            tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
+//            tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0)
         ])
     }
 }

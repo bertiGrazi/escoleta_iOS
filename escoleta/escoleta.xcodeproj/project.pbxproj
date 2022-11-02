@@ -19,6 +19,7 @@
 		B168394D291045BE00F94481 /* PlacesListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B168394C291045BE00F94481 /* PlacesListData.swift */; };
 		B168395029104BCB00F94481 /* PlacesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B168394F29104BCB00F94481 /* PlacesListCell.swift */; };
 		B16839522910667E00F94481 /* PlacesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16839512910667E00F94481 /* PlacesListViewModel.swift */; };
+		B18B05DE2912A0490029A5AD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18B05DD2912A0490029A5AD /* Utilities.swift */; };
 		B18D849D290751F3009E2D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D849C290751F3009E2D47 /* AppDelegate.swift */; };
 		B18D849F290751F3009E2D47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D849E290751F3009E2D47 /* SceneDelegate.swift */; };
 		B18D84A1290751F3009E2D47 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D84A0290751F3009E2D47 /* HomeViewController.swift */; };
@@ -61,6 +62,7 @@
 		B168394C291045BE00F94481 /* PlacesListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListData.swift; sourceTree = "<group>"; };
 		B168394F29104BCB00F94481 /* PlacesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListCell.swift; sourceTree = "<group>"; };
 		B16839512910667E00F94481 /* PlacesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListViewModel.swift; sourceTree = "<group>"; };
+		B18B05DD2912A0490029A5AD /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		B18D8499290751F3009E2D47 /* escoleta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = escoleta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18D849C290751F3009E2D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B18D849E290751F3009E2D47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				B18D84D229075410009E2D47 /* Extensions.swift */,
+				B18B05DD2912A0490029A5AD /* Utilities.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				B168395029104BCB00F94481 /* PlacesListCell.swift in Sources */,
 				B18D84A1290751F3009E2D47 /* HomeViewController.swift in Sources */,
 				B16839452910402A00F94481 /* PlacesListViewController.swift in Sources */,
+				B18B05DE2912A0490029A5AD /* Utilities.swift in Sources */,
 				B18D84A7290751F3009E2D47 /* escoleta.xcdatamodeld in Sources */,
 				B1683948291045A100F94481 /* PlacesListBusinessModelProtocol.swift in Sources */,
 				B168394D291045BE00F94481 /* PlacesListData.swift in Sources */,
