@@ -13,6 +13,13 @@
 		B1088FAF29080B6200B4BDE9 /* ChooseCategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1088FAE29080B6200B4BDE9 /* ChooseCategoryData.swift */; };
 		B1088FB129080B7F00B4BDE9 /* ChooseCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1088FB029080B7F00B4BDE9 /* ChooseCategoryViewModel.swift */; };
 		B1088FB42908A9B600B4BDE9 /* ChooseCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1088FB32908A9B600B4BDE9 /* ChooseCategoryCollectionViewCell.swift */; };
+		B16839452910402A00F94481 /* PlacesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16839442910402A00F94481 /* PlacesListViewController.swift */; };
+		B1683948291045A100F94481 /* PlacesListBusinessModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1683947291045A100F94481 /* PlacesListBusinessModelProtocol.swift */; };
+		B168394A291045AD00F94481 /* PlacesListBusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1683949291045AD00F94481 /* PlacesListBusinessModel.swift */; };
+		B168394D291045BE00F94481 /* PlacesListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B168394C291045BE00F94481 /* PlacesListData.swift */; };
+		B168395029104BCB00F94481 /* PlacesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B168394F29104BCB00F94481 /* PlacesListCell.swift */; };
+		B16839522910667E00F94481 /* PlacesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16839512910667E00F94481 /* PlacesListViewModel.swift */; };
+		B18B05DE2912A0490029A5AD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18B05DD2912A0490029A5AD /* Utilities.swift */; };
 		B18D849D290751F3009E2D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D849C290751F3009E2D47 /* AppDelegate.swift */; };
 		B18D849F290751F3009E2D47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D849E290751F3009E2D47 /* SceneDelegate.swift */; };
 		B18D84A1290751F3009E2D47 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D84A0290751F3009E2D47 /* HomeViewController.swift */; };
@@ -49,6 +56,13 @@
 		B1088FAE29080B6200B4BDE9 /* ChooseCategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCategoryData.swift; sourceTree = "<group>"; };
 		B1088FB029080B7F00B4BDE9 /* ChooseCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCategoryViewModel.swift; sourceTree = "<group>"; };
 		B1088FB32908A9B600B4BDE9 /* ChooseCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		B16839442910402A00F94481 /* PlacesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListViewController.swift; sourceTree = "<group>"; };
+		B1683947291045A100F94481 /* PlacesListBusinessModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListBusinessModelProtocol.swift; sourceTree = "<group>"; };
+		B1683949291045AD00F94481 /* PlacesListBusinessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListBusinessModel.swift; sourceTree = "<group>"; };
+		B168394C291045BE00F94481 /* PlacesListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListData.swift; sourceTree = "<group>"; };
+		B168394F29104BCB00F94481 /* PlacesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListCell.swift; sourceTree = "<group>"; };
+		B16839512910667E00F94481 /* PlacesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListViewModel.swift; sourceTree = "<group>"; };
+		B18B05DD2912A0490029A5AD /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		B18D8499290751F3009E2D47 /* escoleta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = escoleta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18D849C290751F3009E2D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B18D849E290751F3009E2D47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				B1088FB029080B7F00B4BDE9 /* ChooseCategoryViewModel.swift */,
+				B16839512910667E00F94481 /* PlacesListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -118,19 +133,20 @@
 		B1088FA729080B0400B4BDE9 /* BussinessModel */ = {
 			isa = PBXGroup;
 			children = (
-				B1088FA829080B1000B4BDE9 /* ChooseCategoryBussinessModel */,
+				B16839462910457700F94481 /* PlacesListBusinessModel */,
+				B1088FA829080B1000B4BDE9 /* ChooseCategoryBusinessModel */,
 			);
 			path = BussinessModel;
 			sourceTree = "<group>";
 		};
-		B1088FA829080B1000B4BDE9 /* ChooseCategoryBussinessModel */ = {
+		B1088FA829080B1000B4BDE9 /* ChooseCategoryBusinessModel */ = {
 			isa = PBXGroup;
 			children = (
 				B1088FA929080B2600B4BDE9 /* Data */,
 				B1088FAA29080B3B00B4BDE9 /* ChooseCategoryProtocol.swift */,
 				B1088FAC29080B5400B4BDE9 /* ChooseCategoryBussinessModel.swift */,
 			);
-			path = ChooseCategoryBussinessModel;
+			path = ChooseCategoryBusinessModel;
 			sourceTree = "<group>";
 		};
 		B1088FA929080B2600B4BDE9 /* Data */ = {
@@ -147,6 +163,33 @@
 				B1088FB32908A9B600B4BDE9 /* ChooseCategoryCollectionViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		B16839462910457700F94481 /* PlacesListBusinessModel */ = {
+			isa = PBXGroup;
+			children = (
+				B168394B291045B300F94481 /* Data */,
+				B1683947291045A100F94481 /* PlacesListBusinessModelProtocol.swift */,
+				B1683949291045AD00F94481 /* PlacesListBusinessModel.swift */,
+			);
+			path = PlacesListBusinessModel;
+			sourceTree = "<group>";
+		};
+		B168394B291045B300F94481 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B168394C291045BE00F94481 /* PlacesListData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B168394E29104BAA00F94481 /* PlacesList */ = {
+			isa = PBXGroup;
+			children = (
+				B16839442910402A00F94481 /* PlacesListViewController.swift */,
+				B168394F29104BCB00F94481 /* PlacesListCell.swift */,
+			);
+			path = PlacesList;
 			sourceTree = "<group>";
 		};
 		B18D8490290751F3009E2D47 = {
@@ -216,6 +259,7 @@
 			children = (
 				B1088FA329080AA500B4BDE9 /* Home */,
 				B1088FA429080AAF00B4BDE9 /* ChooseCategory */,
+				B168394E29104BAA00F94481 /* PlacesList */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -224,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				B18D84D229075410009E2D47 /* Extensions.swift */,
+				B18B05DD2912A0490029A5AD /* Utilities.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -361,10 +406,17 @@
 				B1088FB42908A9B600B4BDE9 /* ChooseCategoryCollectionViewCell.swift in Sources */,
 				B1088FAB29080B3B00B4BDE9 /* ChooseCategoryProtocol.swift in Sources */,
 				B18D84D329075410009E2D47 /* Extensions.swift in Sources */,
+				B168395029104BCB00F94481 /* PlacesListCell.swift in Sources */,
 				B18D84A1290751F3009E2D47 /* HomeViewController.swift in Sources */,
+				B16839452910402A00F94481 /* PlacesListViewController.swift in Sources */,
+				B18B05DE2912A0490029A5AD /* Utilities.swift in Sources */,
 				B18D84A7290751F3009E2D47 /* escoleta.xcdatamodeld in Sources */,
+				B1683948291045A100F94481 /* PlacesListBusinessModelProtocol.swift in Sources */,
+				B168394D291045BE00F94481 /* PlacesListData.swift in Sources */,
 				B1088FAD29080B5400B4BDE9 /* ChooseCategoryBussinessModel.swift in Sources */,
 				B1088FA2290805EE00B4BDE9 /* ChooseCategoryViewController.swift in Sources */,
+				B168394A291045AD00F94481 /* PlacesListBusinessModel.swift in Sources */,
+				B16839522910667E00F94481 /* PlacesListViewModel.swift in Sources */,
 				B1088FAF29080B6200B4BDE9 /* ChooseCategoryData.swift in Sources */,
 				B1088FB129080B7F00B4BDE9 /* ChooseCategoryViewModel.swift in Sources */,
 				B18D849D290751F3009E2D47 /* AppDelegate.swift in Sources */,
