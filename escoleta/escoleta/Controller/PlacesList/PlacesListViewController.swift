@@ -26,7 +26,7 @@ class PlacesListViewController: UIViewController {
         searchBar.placeholder = "insira o nome do lugar desejado"
         searchBar.keyboardType = .alphabet
         searchBar.sizeToFit()
-        searchBar.backgroundColor = .backgroundColor
+        searchBar.barTintColor = .backgroundColor
         return searchBar
     }()
     
