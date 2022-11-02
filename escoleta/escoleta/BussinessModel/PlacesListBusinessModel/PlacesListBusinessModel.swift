@@ -14,6 +14,9 @@ class PlacesListBusinessModel: PlacesListBusinessModelProtocol {
             PlacesListData(imagePlace: UIImage(named: "placeImageDefault") ?? UIImage(), namePlace: "Colectoria", category: "Resíduos Eletrôniocos", adress: "Guilherme Gemballa", state: "Santa Catarina", neighborhood: "Jardim América", number: 260),
             PlacesListData(imagePlace: UIImage(named: "placeImageDefault") ?? UIImage(), namePlace: "Colectoria", category: "Resíduos Eletrôniocos", adress: "Guilherme Gemballa", state: "Santa Catarina", neighborhood: "Jardim América", number: 260),
             PlacesListData(imagePlace: UIImage(named: "placeImageDefault") ?? UIImage(), namePlace: "Colectoria", category: "Resíduos Eletrôniocos", adress: "Guilherme Gemballa", state: "Santa Catarina", neighborhood: "Jardim América", number: 260),
+            PlacesListData(imagePlace: UIImage(named: "placeImageDefault") ?? UIImage(), namePlace: "Colectoria", category: "Resíduos Eletrôniocos", adress: "Guilherme Gemballa", state: "Santa Catarina", neighborhood: "Jardim América", number: 260),
+            PlacesListData(imagePlace: UIImage(named: "placeImageDefault") ?? UIImage(), namePlace: "Colectoria", category: "Resíduos Eletrôniocos", adress: "Guilherme Gemballa", state: "Santa Catarina", neighborhood: "Jardim América", number: 260),
+            PlacesListData(imagePlace: UIImage(named: "placeImageDefault") ?? UIImage(), namePlace: "Colectoria", category: "Resíduos Eletrôniocos", adress: "Guilherme Gemballa", state: "Santa Catarina", neighborhood: "Jardim América", number: 260),
         ]
     }
 }

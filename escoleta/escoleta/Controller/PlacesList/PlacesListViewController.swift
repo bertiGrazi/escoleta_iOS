@@ -31,12 +31,18 @@ class PlacesListViewController: UIViewController {
     }()
     
     fileprivate let foundPlacesLabel: UILabel = {
-        let label = Utilities().attributedFoundPlacesText("2 pontos", " encontrados")
+        let label = UILabel()
+        //Utilities().attributedFoundPlacesText("2 pontos", " encontrados")
         label.numberOfLines = 0
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
 
+    fileprivate func setupText() -> UILabel {
+        let label = Utilities().attributedFoundPlacesText("\(viewModel.fetchPlacesList().count) pontos", " encontrados")
+        foundPlacesLabel.attributedText = label.attributedText
+        return label
+    }
     fileprivate let tableView: UITableView = {
         let tableView = UITableView()
         tableView.backgroundColor = .backgroundColor
@@ -56,6 +62,7 @@ class PlacesListViewController: UIViewController {
         view.backgroundColor = .backgroundColor
         setupLayout()
         setupConstraints()
+        setupText()
     }
     
     fileprivate func setupLayout() {
