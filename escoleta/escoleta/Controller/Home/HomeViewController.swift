@@ -112,7 +112,10 @@ class HomeViewController: UIViewController {
     //MARK: - Selectors
     @objc
     fileprivate func handleRegisterCollectionPoint() {
-        print("Clicou aqui")
+       let registerCollectionPointVC = RegisterCollectionPointViewController()
+        registerCollectionPointVC.navigationItem.largeTitleDisplayMode = .never
+        registerCollectionPointVC.title = "Cadastro do Ponto da Coleta"
+        self.navigationController?.pushViewController(registerCollectionPointVC, animated: true)
     }
     
     @objc
@@ -182,7 +185,7 @@ class HomeViewController: UIViewController {
             serchImageView.centerYAnchor.constraint(equalTo: serchView.centerYAnchor, constant: 0),
             
             searchForCollectionPointsButton.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor, constant: 0),
-            searchForCollectionPointsButton.topAnchor.constraint(equalTo: subtitleLabel.bottomAnchor, constant: 25),
+            searchForCollectionPointsButton.topAnchor.constraint(equalTo: subtitleLabel.bottomAnchor, constant: 70),
             searchForCollectionPointsButton.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor, constant: 20),
             searchForCollectionPointsButton.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor, constant: 20),
             searchForCollectionPointsButton.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor, constant: -20),

@@ -30,6 +30,7 @@
 		B18D84C1290751F5009E2D47 /* escoletaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D84C0290751F5009E2D47 /* escoletaUITests.swift */; };
 		B18D84C3290751F5009E2D47 /* escoletaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D84C2290751F5009E2D47 /* escoletaUITestsLaunchTests.swift */; };
 		B18D84D329075410009E2D47 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D84D229075410009E2D47 /* Extensions.swift */; };
+		B1F94D83291B197400C8C252 /* RegisterCollectionPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F94D82291B197400C8C252 /* RegisterCollectionPointViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		B18D84C0290751F5009E2D47 /* escoletaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = escoletaUITests.swift; sourceTree = "<group>"; };
 		B18D84C2290751F5009E2D47 /* escoletaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = escoletaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B18D84D229075410009E2D47 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B1F94D82291B197400C8C252 /* RegisterCollectionPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCollectionPointViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +259,7 @@
 		B18D84D029075230009E2D47 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B1F94D81291B196500C8C252 /* RegisterCollectionPoint */,
 				B1088FA329080AA500B4BDE9 /* Home */,
 				B1088FA429080AAF00B4BDE9 /* ChooseCategory */,
 				B168394E29104BAA00F94481 /* PlacesList */,
@@ -271,6 +274,14 @@
 				B18B05DD2912A0490029A5AD /* Utilities.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		B1F94D81291B196500C8C252 /* RegisterCollectionPoint */ = {
+			isa = PBXGroup;
+			children = (
+				B1F94D82291B197400C8C252 /* RegisterCollectionPointViewController.swift */,
+			);
+			path = RegisterCollectionPoint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,6 +426,7 @@
 				B168394D291045BE00F94481 /* PlacesListData.swift in Sources */,
 				B1088FAD29080B5400B4BDE9 /* ChooseCategoryBussinessModel.swift in Sources */,
 				B1088FA2290805EE00B4BDE9 /* ChooseCategoryViewController.swift in Sources */,
+				B1F94D83291B197400C8C252 /* RegisterCollectionPointViewController.swift in Sources */,
 				B168394A291045AD00F94481 /* PlacesListBusinessModel.swift in Sources */,
 				B16839522910667E00F94481 /* PlacesListViewModel.swift in Sources */,
 				B1088FAF29080B6200B4BDE9 /* ChooseCategoryData.swift in Sources */,
