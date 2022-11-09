@@ -19,4 +19,21 @@ class Utilities {
         
         return label
     }
+    
+    func titleTextField(_ placeholderTitle: String) -> UILabel {
+        let label = UILabel()
+        label.font = UIFont.systemFont(ofSize: 14)
+        label.text = placeholderTitle
+        label.numberOfLines = 0
+        label.tintColor = .subtitleColor
+        return label
+    }
+    
+    func collectionTextField(_ keyboardAppearance: UIKeyboardAppearance) -> UITextField {
+        let textField = UITextField()
+        textField.backgroundColor = .backgroundColor
+        textField.layer.cornerRadius = 4
+        textField.keyboardAppearance = keyboardAppearance
+        return textField
+    }
 }
